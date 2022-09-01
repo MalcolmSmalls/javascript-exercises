@@ -1,4 +1,9 @@
-const repeatString = function() {
+const repeatString = function(repeatedPhrase, numOfRepeats) {
+    if(numOfRepeats < 0){
+        return 'ERROR'
+    }else{
+        return repeatedPhrase.repeat(numOfRepeats)
+    }
 
 };
 
